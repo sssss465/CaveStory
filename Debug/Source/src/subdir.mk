@@ -7,19 +7,22 @@ CPP_SRCS += \
 ../Source/src/game.cpp \
 ../Source/src/graphics.cpp \
 ../Source/src/input.cpp \
-../Source/src/main.cpp 
+../Source/src/main.cpp \
+../Source/src/sprite.cpp 
 
 OBJS += \
 ./Source/src/game.o \
 ./Source/src/graphics.o \
 ./Source/src/input.o \
-./Source/src/main.o 
+./Source/src/main.o \
+./Source/src/sprite.o 
 
 CPP_DEPS += \
 ./Source/src/game.d \
 ./Source/src/graphics.d \
 ./Source/src/input.d \
-./Source/src/main.d 
+./Source/src/main.d \
+./Source/src/sprite.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
